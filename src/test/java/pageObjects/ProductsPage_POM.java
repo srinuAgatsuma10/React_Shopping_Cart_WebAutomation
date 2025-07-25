@@ -14,28 +14,31 @@ public class ProductsPage_POM extends BasePOMPage {
 	}
 
 	
+	
 	// WebElements
-	@FindBy(xpath = "")
+	@FindBy(xpath = "//div//p[@class='sc-124al1g-4 eeXMBo']")
 	List<WebElement> productNames;
 
-	@FindBy(xpath = "")
+	@FindBy(xpath = "//div//div//div[@class=\"sc-124al1g-3 bHJSNa\"]")
 	WebElement freeShipping;
 
-	@FindBy(xpath = "")
+	@FindBy(xpath = "//div[@class='sc-124al1g-2 bMffkU']//button[@class='sc-124al1g-0 jCsgpZ'][normalize-space()='Add to cart']")
 	WebElement addToCart;
 
-	@FindBy(xpath = "")
+	@FindBy(xpath = "//div//div//div//button[@class=\"sc-124al1g-0 jCsgpZ\"]")
 	List<WebElement> addMultipleProducsToCart;
+	
+	@FindBy(xpath = "//main[@class=\"sc-ebmerl-4 iliWeY\"]//p")
+	WebElement resultsFound;
 
 	
 	
 	// Action Methods
-	public String getProductName() {
+	public void getProductName() {
 		for (WebElement product : productNames) {
 			String productName = product.getText();
-			return productName;
+			System.out.println(productName);
 		}
-		return null;
 	}
 
 	public void freeShipping() {
@@ -50,5 +53,10 @@ public class ProductsPage_POM extends BasePOMPage {
 		for (WebElement product : addMultipleProducsToCart) {
 			product.click();
 		}
+	}
+	
+	public int getResultsCount() {
+		String[] arr = resultsFound.getText().split(" ");
+		return Integer.parseInt(arr[0]);
 	}
 }
