@@ -22,7 +22,7 @@ public class ProductsPage_POM extends BasePOMPage {
 	@FindBy(xpath = "//div//div//div[@class=\"sc-124al1g-3 bHJSNa\"]")
 	WebElement freeShipping;
 
-	@FindBy(xpath = "//div[@class='sc-124al1g-2 bMffkU']//button[@class='sc-124al1g-0 jCsgpZ'][normalize-space()='Add to cart']")
+	@FindBy(xpath = "//div[@class=\"sc-124al1g-2 bMffkU\"]//button")
 	WebElement addToCart;
 
 	@FindBy(xpath = "//div//div//div//button[@class=\"sc-124al1g-0 jCsgpZ\"]")
