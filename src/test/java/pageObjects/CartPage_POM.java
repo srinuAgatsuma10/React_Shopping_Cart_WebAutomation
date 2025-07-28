@@ -20,6 +20,9 @@ public class CartPage_POM extends BasePOMPage {
 
 	@FindBy(xpath = "//p[@class='sc-11uohgb-2 elbkhN']")
 	List<WebElement> productNames;
+	
+	@FindBy(xpath = "//div[@class='sc-1h98xa9-8 bciIxg']//p[@class='sc-1h98xa9-9 jzywDV']")
+	WebElement price;
 
 	
 	
@@ -33,5 +36,10 @@ public class CartPage_POM extends BasePOMPage {
 			System.out.println(product.getText());
 
 		}
+	}
+	
+	public float returnCartTotalPirce() {
+		float cartPrice = Float.parseFloat(price.getText().substring(2));
+		return cartPrice;
 	}
 }
