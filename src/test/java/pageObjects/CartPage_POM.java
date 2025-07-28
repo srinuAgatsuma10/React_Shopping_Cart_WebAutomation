@@ -23,6 +23,9 @@ public class CartPage_POM extends BasePOMPage {
 	
 	@FindBy(xpath = "//div[@class='sc-1h98xa9-8 bciIxg']//p[@class='sc-1h98xa9-9 jzywDV']")
 	WebElement price;
+	
+	@FindBy(xpath = "//div[@class='sc-11uohgb-0 hDmOrM']//button[@title='remove product from cart']")
+	List<WebElement> removeProduct;
 
 	
 	
@@ -41,5 +44,11 @@ public class CartPage_POM extends BasePOMPage {
 	public float returnCartTotalPirce() {
 		float cartPrice = Float.parseFloat(price.getText().substring(2));
 		return cartPrice;
+	}
+	
+	public void removePoroductFromCart() {
+		for (WebElement remove : removeProduct) {
+			remove.click();
+		}
 	}
 }
