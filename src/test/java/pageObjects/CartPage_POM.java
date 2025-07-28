@@ -26,7 +26,10 @@ public class CartPage_POM extends BasePOMPage {
 	
 	@FindBy(xpath = "//div[@class='sc-11uohgb-0 hDmOrM']//button[@title='remove product from cart']")
 	List<WebElement> removeProduct;
-
+	
+	@FindBy(xpath = "//button[@class='sc-1h98xa9-11 gnXVNU']")
+	WebElement checkOutBtn;
+	
 	
 	
 	// Action Methods
@@ -50,5 +53,9 @@ public class CartPage_POM extends BasePOMPage {
 		for (WebElement remove : removeProduct) {
 			remove.click();
 		}
+	}
+	
+	public void checkOutProduct() {
+		checkOutBtn.click();
 	}
 }
