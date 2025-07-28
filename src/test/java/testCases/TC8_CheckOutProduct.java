@@ -9,20 +9,25 @@ import testBase.BaseClass;
 
 public class TC8_CheckOutProduct extends BaseClass {
 
+	/* Test Case :
+	 * Validate CheckOut Functionality.
+	 * ExpResults : Alert should be display with Total Price of cart.
+	 */
+	
 	@Test
-	public void checkOutPrduct() {
+	public void checkOutPrduct() throws InterruptedException {
 		ProductsPage_POM pp = new ProductsPage_POM(driver);
 		pp.clikAddToCart();
-		
+
 		CartPage_POM cp = new CartPage_POM(driver);
 		cp.checkOutProduct();
-		
+
+		Thread.sleep(2000);
+
 		Alert al = driver.switchTo().alert();
 		al.accept();
 		System.out.println(al.getText());
-		
-		// Implement Update.
-		
+
 	}
-	
+
 }
