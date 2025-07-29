@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="9" passed="5" failed="4" skipped="0">
+<testng-results ignored="0" total="9" passed="3" failed="6" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-07-29T18:59:02 IST" name="Suite" finished-at="2025-07-29T18:59:51 IST" duration-ms="49340">
+  <suite started-at="2025-07-29T20:00:09 IST" name="Suite" finished-at="2025-07-29T20:01:50 IST" duration-ms="100796">
     <groups>
     </groups>
-    <test started-at="2025-07-29T18:59:02 IST" name="Test" finished-at="2025-07-29T18:59:51 IST" duration-ms="49340">
+    <test started-at="2025-07-29T20:00:09 IST" name="Test" finished-at="2025-07-29T20:01:50 IST" duration-ms="100796">
       <class name="testCases.TC2_SizeFilteration_2">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.TC2_SizeFilteration_2@5aa9e4eb]" started-at="2025-07-29T18:59:36 IST" name="setUp" finished-at="2025-07-29T18:59:40 IST" duration-ms="3475" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.TC2_SizeFilteration_2@642a7222]" started-at="2025-07-29T20:01:22 IST" name="setUp" finished-at="2025-07-29T20:01:29 IST" duration-ms="7021" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="sizeFinteration2()[pri:0, instance:testCases.TC2_SizeFilteration_2@5aa9e4eb]" started-at="2025-07-29T18:59:40 IST" name="sizeFinteration2" finished-at="2025-07-29T18:59:43 IST" duration-ms="3189" status="FAIL">
+        <test-method signature="sizeFinteration2()[pri:0, instance:testCases.TC2_SizeFilteration_2@642a7222]" started-at="2025-07-29T20:01:29 IST" name="sizeFinteration2" finished-at="2025-07-29T20:01:33 IST" duration-ms="3185" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [12] but found [2]]]>
@@ -58,31 +58,31 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sizeFinteration2 -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC2_SizeFilteration_2@5aa9e4eb]" started-at="2025-07-29T18:59:43 IST" name="tearDown" finished-at="2025-07-29T18:59:43 IST" duration-ms="156" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC2_SizeFilteration_2@642a7222]" started-at="2025-07-29T20:01:33 IST" name="tearDown" finished-at="2025-07-29T20:01:33 IST" duration-ms="175" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testCases.TC2_SizeFilteration_2 -->
       <class name="testCases.TC7_AddToCart_4">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.TC7_AddToCart_4@1f2586d6]" started-at="2025-07-29T18:59:19 IST" name="setUp" finished-at="2025-07-29T18:59:23 IST" duration-ms="3924" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.TC7_AddToCart_4@415b0b49]" started-at="2025-07-29T20:00:53 IST" name="setUp" finished-at="2025-07-29T20:00:59 IST" duration-ms="6373" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="addToCart()[pri:0, instance:testCases.TC7_AddToCart_4@1f2586d6]" started-at="2025-07-29T18:59:23 IST" name="addToCart" finished-at="2025-07-29T18:59:26 IST" duration-ms="3367" status="PASS">
+        <test-method signature="addToCart()[pri:0, instance:testCases.TC7_AddToCart_4@415b0b49]" started-at="2025-07-29T20:00:59 IST" name="addToCart" finished-at="2025-07-29T20:01:03 IST" duration-ms="3408" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addToCart -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC7_AddToCart_4@1f2586d6]" started-at="2025-07-29T18:59:26 IST" name="tearDown" finished-at="2025-07-29T18:59:26 IST" duration-ms="166" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC7_AddToCart_4@415b0b49]" started-at="2025-07-29T20:01:03 IST" name="tearDown" finished-at="2025-07-29T20:01:03 IST" duration-ms="169" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testCases.TC7_AddToCart_4 -->
       <class name="testCases.TC8_CheckOutProduct">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.TC8_CheckOutProduct@2f4948e4]" started-at="2025-07-29T18:59:13 IST" name="setUp" finished-at="2025-07-29T18:59:17 IST" duration-ms="3359" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.TC8_CheckOutProduct@5be1d0a4]" started-at="2025-07-29T20:00:44 IST" name="setUp" finished-at="2025-07-29T20:00:51 IST" duration-ms="7231" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="checkOutPrduct()[pri:0, instance:testCases.TC8_CheckOutProduct@2f4948e4]" started-at="2025-07-29T18:59:17 IST" name="checkOutPrduct" finished-at="2025-07-29T18:59:19 IST" duration-ms="2158" status="FAIL">
+        <test-method signature="checkOutPrduct()[pri:0, instance:testCases.TC8_CheckOutProduct@5be1d0a4]" started-at="2025-07-29T20:00:51 IST" name="checkOutPrduct" finished-at="2025-07-29T20:00:53 IST" duration-ms="2134" status="FAIL">
           <exception class="org.openqa.selenium.NoAlertPresentException">
             <message>
               <![CDATA[no such alert
@@ -90,9 +90,9 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 Build info: version: '4.27.0', revision: 'd6e718d134'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [f98ab44508c1afdb6f1193ed9c7c53cf, getAlertText {}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.169, chrome: {chromedriverVersion: 138.0.7204.168 (3e8d82e86e9..., userDataDir: C:\Users\ASUS\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54091}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54091/devtoo..., se:cdpVersion: 138.0.7204.169, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: f98ab44508c1afdb6f1193ed9c7c53cf]]>
+Command: [42f583143ef449239412883b1cc3268f, getAlertText {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.169, chrome: {chromedriverVersion: 138.0.7204.168 (3e8d82e86e9..., userDataDir: C:\Users\ASUS\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57269}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57269/devtoo..., se:cdpVersion: 138.0.7204.169, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 42f583143ef449239412883b1cc3268f]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoAlertPresentException: no such alert
@@ -100,9 +100,9 @@ Session ID: f98ab44508c1afdb6f1193ed9c7c53cf]]>
 Build info: version: '4.27.0', revision: 'd6e718d134'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [f98ab44508c1afdb6f1193ed9c7c53cf, getAlertText {}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.169, chrome: {chromedriverVersion: 138.0.7204.168 (3e8d82e86e9..., userDataDir: C:\Users\ASUS\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54091}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54091/devtoo..., se:cdpVersion: 138.0.7204.169, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: f98ab44508c1afdb6f1193ed9c7c53cf
+Command: [42f583143ef449239412883b1cc3268f, getAlertText {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.169, chrome: {chromedriverVersion: 138.0.7204.168 (3e8d82e86e9..., userDataDir: C:\Users\ASUS\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57269}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57269/devtoo..., se:cdpVersion: 138.0.7204.169, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 42f583143ef449239412883b1cc3268f
 at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
 at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
@@ -115,8 +115,8 @@ at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverComman
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:618)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:622)
-at org.openqa.selenium.remote.RemoteWebDriver$RemoteAlert.getText(RemoteWebDriver.java:1215)
-at testCases.TC8_CheckOutProduct.checkOutPrduct(TC8_CheckOutProduct.java:29)
+at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.alert(RemoteWebDriver.java:1194)
+at testCases.TC8_CheckOutProduct.checkOutPrduct(TC8_CheckOutProduct.java:27)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -149,59 +149,101 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkOutPrduct -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC8_CheckOutProduct@2f4948e4]" started-at="2025-07-29T18:59:19 IST" name="tearDown" finished-at="2025-07-29T18:59:19 IST" duration-ms="144" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC8_CheckOutProduct@5be1d0a4]" started-at="2025-07-29T20:00:53 IST" name="tearDown" finished-at="2025-07-29T20:00:53 IST" duration-ms="162" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testCases.TC8_CheckOutProduct -->
       <class name="testCases.TC4_AddToCart_1">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.TC4_AddToCart_1@6a78afa0]" started-at="2025-07-29T18:59:09 IST" name="setUp" finished-at="2025-07-29T18:59:13 IST" duration-ms="3924" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.TC4_AddToCart_1@49b2a47d]" started-at="2025-07-29T20:00:32 IST" name="setUp" finished-at="2025-07-29T20:00:43 IST" duration-ms="10800" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="addToCart()[pri:0, instance:testCases.TC4_AddToCart_1@6a78afa0]" started-at="2025-07-29T18:59:13 IST" name="addToCart" finished-at="2025-07-29T18:59:13 IST" duration-ms="100" status="PASS">
+        <test-method signature="addToCart()[pri:0, instance:testCases.TC4_AddToCart_1@49b2a47d]" started-at="2025-07-29T20:00:43 IST" name="addToCart" finished-at="2025-07-29T20:00:43 IST" duration-ms="101" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Blue T-Shirt] but found []]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Blue T-Shirt] but found []
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at testCases.TC4_AddToCart_1.addToCart(TC4_AddToCart_1.java:26)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addToCart -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC4_AddToCart_1@6a78afa0]" started-at="2025-07-29T18:59:13 IST" name="tearDown" finished-at="2025-07-29T18:59:13 IST" duration-ms="141" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC4_AddToCart_1@49b2a47d]" started-at="2025-07-29T20:00:43 IST" name="tearDown" finished-at="2025-07-29T20:00:44 IST" duration-ms="171" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testCases.TC4_AddToCart_1 -->
       <class name="testCases.TC3_SizeFilteration_3">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.TC3_SizeFilteration_3@5542c4ed]" started-at="2025-07-29T18:59:02 IST" name="setUp" finished-at="2025-07-29T18:59:06 IST" duration-ms="3736" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.TC3_SizeFilteration_3@13d73f29]" started-at="2025-07-29T20:00:09 IST" name="setUp" finished-at="2025-07-29T20:00:29 IST" duration-ms="19562" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="sizeFilteratin3()[pri:0, instance:testCases.TC3_SizeFilteration_3@5542c4ed]" started-at="2025-07-29T18:59:06 IST" name="sizeFilteratin3" finished-at="2025-07-29T18:59:09 IST" duration-ms="3471" status="PASS">
+        <test-method signature="sizeFilteratin3()[pri:0, instance:testCases.TC3_SizeFilteration_3@13d73f29]" started-at="2025-07-29T20:00:29 IST" name="sizeFilteratin3" finished-at="2025-07-29T20:00:32 IST" duration-ms="3496" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sizeFilteratin3 -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC3_SizeFilteration_3@5542c4ed]" started-at="2025-07-29T18:59:09 IST" name="tearDown" finished-at="2025-07-29T18:59:09 IST" duration-ms="178" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC3_SizeFilteration_3@13d73f29]" started-at="2025-07-29T20:00:32 IST" name="tearDown" finished-at="2025-07-29T20:00:32 IST" duration-ms="155" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testCases.TC3_SizeFilteration_3 -->
       <class name="testCases.TC5_AddToCart_2">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.TC5_AddToCart_2@3fc2959f]" started-at="2025-07-29T18:59:30 IST" name="setUp" finished-at="2025-07-29T18:59:33 IST" duration-ms="3329" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.TC5_AddToCart_2@311bf055]" started-at="2025-07-29T20:01:12 IST" name="setUp" finished-at="2025-07-29T20:01:19 IST" duration-ms="7156" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="addToCart()[pri:0, instance:testCases.TC5_AddToCart_2@3fc2959f]" started-at="2025-07-29T18:59:33 IST" name="addToCart" finished-at="2025-07-29T18:59:36 IST" duration-ms="3245" status="PASS">
+        <test-method signature="addToCart()[pri:0, instance:testCases.TC5_AddToCart_2@311bf055]" started-at="2025-07-29T20:01:19 IST" name="addToCart" finished-at="2025-07-29T20:01:22 IST" duration-ms="3262" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addToCart -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC5_AddToCart_2@3fc2959f]" started-at="2025-07-29T18:59:36 IST" name="tearDown" finished-at="2025-07-29T18:59:36 IST" duration-ms="175" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC5_AddToCart_2@311bf055]" started-at="2025-07-29T20:01:22 IST" name="tearDown" finished-at="2025-07-29T20:01:22 IST" duration-ms="178" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testCases.TC5_AddToCart_2 -->
       <class name="testCases.TC6_AddToCart_3">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.TC6_AddToCart_3@10683d9d]" started-at="2025-07-29T18:59:26 IST" name="setUp" finished-at="2025-07-29T18:59:29 IST" duration-ms="3021" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.TC6_AddToCart_3@6d5620ce]" started-at="2025-07-29T20:01:03 IST" name="setUp" finished-at="2025-07-29T20:01:11 IST" duration-ms="8423" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="addToCart()[pri:0, instance:testCases.TC6_AddToCart_3@10683d9d]" started-at="2025-07-29T18:59:29 IST" name="addToCart" finished-at="2025-07-29T18:59:30 IST" duration-ms="85" status="FAIL">
+        <test-method signature="addToCart()[pri:0, instance:testCases.TC6_AddToCart_3@6d5620ce]" started-at="2025-07-29T20:01:11 IST" name="addToCart" finished-at="2025-07-29T20:01:12 IST" duration-ms="86" status="FAIL">
           <exception class="java.lang.StringIndexOutOfBoundsException">
             <message>
               <![CDATA[Range [2, 0) out of bounds for length 0]]>
@@ -252,23 +294,80 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addToCart -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC6_AddToCart_3@10683d9d]" started-at="2025-07-29T18:59:30 IST" name="tearDown" finished-at="2025-07-29T18:59:30 IST" duration-ms="161" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC6_AddToCart_3@6d5620ce]" started-at="2025-07-29T20:01:12 IST" name="tearDown" finished-at="2025-07-29T20:01:12 IST" duration-ms="141" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testCases.TC6_AddToCart_3 -->
-      <class name="testCases.TC9_FilterFreeShippingProducts">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.TC9_FilterFreeShippingProducts@6989da5e]" started-at="2025-07-29T18:59:43 IST" name="setUp" finished-at="2025-07-29T18:59:47 IST" duration-ms="3239" status="PASS">
+      <class name="testCases.TC1_SizeFilteration_1">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.TC1_SizeFilteration_1@21be3395]" started-at="2025-07-29T20:01:37 IST" name="setUp" finished-at="2025-07-29T20:01:49 IST" duration-ms="11612" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="filterFreeShippinProducts()[pri:0, instance:testCases.TC9_FilterFreeShippingProducts@6989da5e]" started-at="2025-07-29T18:59:47 IST" name="filterFreeShippinProducts" finished-at="2025-07-29T18:59:47 IST" duration-ms="2" status="FAIL">
-          <exception class="java.lang.ClassCastException">
+        <test-method signature="sizeFilteration1()[pri:0, instance:testCases.TC1_SizeFilteration_1@21be3395]" started-at="2025-07-29T20:01:49 IST" name="sizeFilteration1" finished-at="2025-07-29T20:01:50 IST" duration-ms="1223" status="FAIL">
+          <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[class jdk.proxy2.$Proxy13 cannot be cast to class org.openqa.selenium.By (jdk.proxy2.$Proxy13 is in module jdk.proxy2 of loader 'app'; org.openqa.selenium.By is in unnamed module of loader 'app')]]>
+              <![CDATA[expected [10] but found [16]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.ClassCastException: class jdk.proxy2.$Proxy13 cannot be cast to class org.openqa.selenium.By (jdk.proxy2.$Proxy13 is in module jdk.proxy2 of loader 'app'; org.openqa.selenium.By is in unnamed module of loader 'app')
+              <![CDATA[java.lang.AssertionError: expected [10] but found [16]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:1419)
+at org.testng.Assert.assertEquals(Assert.java:1383)
+at org.testng.Assert.assertEquals(Assert.java:1429)
+at testCases.TC1_SizeFilteration_1.sizeFilteration1(TC1_SizeFilteration_1.java:23)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sizeFilteration1 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC1_SizeFilteration_1@21be3395]" started-at="2025-07-29T20:01:50 IST" name="tearDown" finished-at="2025-07-29T20:01:50 IST" duration-ms="152" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC1_SizeFilteration_1 -->
+      <class name="testCases.TC9_FilterFreeShippingProducts">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.TC9_FilterFreeShippingProducts@7d322cad]" started-at="2025-07-29T20:01:33 IST" name="setUp" finished-at="2025-07-29T20:01:37 IST" duration-ms="4141" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="filterFreeShippinProducts()[pri:0, instance:testCases.TC9_FilterFreeShippingProducts@7d322cad]" started-at="2025-07-29T20:01:37 IST" name="filterFreeShippinProducts" finished-at="2025-07-29T20:01:37 IST" duration-ms="3" status="FAIL">
+          <exception class="java.lang.ClassCastException">
+            <message>
+              <![CDATA[class jdk.proxy2.$Proxy16 cannot be cast to class org.openqa.selenium.By (jdk.proxy2.$Proxy16 is in module jdk.proxy2 of loader 'app'; org.openqa.selenium.By is in unnamed module of loader 'app')]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.ClassCastException: class jdk.proxy2.$Proxy16 cannot be cast to class org.openqa.selenium.By (jdk.proxy2.$Proxy16 is in module jdk.proxy2 of loader 'app'; org.openqa.selenium.By is in unnamed module of loader 'app')
 at pageObjects.ProductsPage_POM.getFreeShippingProducts(ProductsPage_POM.java:55)
 at testCases.TC9_FilterFreeShippingProducts.filterFreeShippinProducts(TC9_FilterFreeShippingProducts.java:22)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
@@ -303,25 +402,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- filterFreeShippinProducts -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC9_FilterFreeShippingProducts@6989da5e]" started-at="2025-07-29T18:59:47 IST" name="tearDown" finished-at="2025-07-29T18:59:47 IST" duration-ms="186" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC9_FilterFreeShippingProducts@7d322cad]" started-at="2025-07-29T20:01:37 IST" name="tearDown" finished-at="2025-07-29T20:01:37 IST" duration-ms="150" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testCases.TC9_FilterFreeShippingProducts -->
-      <class name="testCases.TC1_SizeFilteration_1">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.TC1_SizeFilteration_1@385c9627]" started-at="2025-07-29T18:59:47 IST" name="setUp" finished-at="2025-07-29T18:59:50 IST" duration-ms="3059" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="sizeFilteration1()[pri:0, instance:testCases.TC1_SizeFilteration_1@385c9627]" started-at="2025-07-29T18:59:50 IST" name="sizeFilteration1" finished-at="2025-07-29T18:59:51 IST" duration-ms="1151" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- sizeFilteration1 -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC1_SizeFilteration_1@385c9627]" started-at="2025-07-29T18:59:51 IST" name="tearDown" finished-at="2025-07-29T18:59:51 IST" duration-ms="144" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- testCases.TC1_SizeFilteration_1 -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

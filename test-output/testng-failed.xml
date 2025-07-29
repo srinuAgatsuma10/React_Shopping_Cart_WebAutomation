@@ -3,27 +3,6 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="testCases.TC9_FilterFreeShippingProducts">
-        <methods>
-          <include name="tearDown"/>
-          <include name="filterFreeShippinProducts"/>
-          <include name="setUp"/>
-        </methods>
-      </class> <!-- testCases.TC9_FilterFreeShippingProducts -->
-      <class name="testCases.TC6_AddToCart_3">
-        <methods>
-          <include name="tearDown"/>
-          <include name="addToCart"/>
-          <include name="setUp"/>
-        </methods>
-      </class> <!-- testCases.TC6_AddToCart_3 -->
-      <class name="testCases.TC2_SizeFilteration_2">
-        <methods>
-          <include name="tearDown"/>
-          <include name="sizeFinteration2"/>
-          <include name="setUp"/>
-        </methods>
-      </class> <!-- testCases.TC2_SizeFilteration_2 -->
       <class name="testCases.TC8_CheckOutProduct">
         <methods>
           <include name="tearDown"/>
@@ -31,6 +10,41 @@
           <include name="setUp"/>
         </methods>
       </class> <!-- testCases.TC8_CheckOutProduct -->
+      <class name="testCases.TC6_AddToCart_3">
+        <methods>
+          <include name="tearDown"/>
+          <include name="addToCart"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- testCases.TC6_AddToCart_3 -->
+      <class name="testCases.TC9_FilterFreeShippingProducts">
+        <methods>
+          <include name="tearDown"/>
+          <include name="filterFreeShippinProducts"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- testCases.TC9_FilterFreeShippingProducts -->
+      <class name="testCases.TC4_AddToCart_1">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="addToCart"/>
+        </methods>
+      </class> <!-- testCases.TC4_AddToCart_1 -->
+      <class name="testCases.TC2_SizeFilteration_2">
+        <methods>
+          <include name="tearDown"/>
+          <include name="sizeFinteration2"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- testCases.TC2_SizeFilteration_2 -->
+      <class name="testCases.TC1_SizeFilteration_1">
+        <methods>
+          <include name="tearDown"/>
+          <include name="sizeFilteration1"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- testCases.TC1_SizeFilteration_1 -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
