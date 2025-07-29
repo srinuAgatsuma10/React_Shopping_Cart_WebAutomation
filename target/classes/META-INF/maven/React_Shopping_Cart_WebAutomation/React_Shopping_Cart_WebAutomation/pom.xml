@@ -97,6 +97,19 @@
 			<version>1.0.2</version>
 		</dependency>
 
+		<!-- https://mvnrepository.com/artifact/com.github.bonigarcia/webdrivermanager 
+		<dependency>
+   			<groupId>com.github.bonigarcia</groupId>
+    		<artifactId>webdrivermanager</artifactId>
+    		<version>webdrivermanager-5.5.3</version>
+		</dependency>	-->
+		
+		<!-- https://mvnrepository.com/artifact/io.qameta.allure/allure-testng -->
+		<dependency>
+    		<groupId>io.qameta.allure</groupId>
+    		<artifactId>allure-testng</artifactId>
+    		<version>2.29.1</version>
+		</dependency>
 
 	</dependencies>
 
