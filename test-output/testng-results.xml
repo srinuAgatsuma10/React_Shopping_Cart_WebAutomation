@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-07-29T18:51:51 IST" name="Default suite" finished-at="2025-07-29T18:52:01 IST" duration-ms="9340">
+  <suite started-at="2025-07-29T18:56:58 IST" name="Default suite" finished-at="2025-07-29T18:57:02 IST" duration-ms="4388">
     <groups>
     </groups>
-    <test started-at="2025-07-29T18:51:51 IST" name="Default test" finished-at="2025-07-29T18:52:01 IST" duration-ms="9340">
+    <test started-at="2025-07-29T18:56:58 IST" name="Default test" finished-at="2025-07-29T18:57:02 IST" duration-ms="4388">
       <class name="testCases.TC9_FilterFreeShippingProducts">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.TC9_FilterFreeShippingProducts@22ff4249]" started-at="2025-07-29T18:51:51 IST" name="setUp" finished-at="2025-07-29T18:52:01 IST" duration-ms="9120" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.TC9_FilterFreeShippingProducts@22ff4249]" started-at="2025-07-29T18:56:58 IST" name="setUp" finished-at="2025-07-29T18:57:02 IST" duration-ms="4170" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="filterFreeShippinProducts()[pri:0, instance:testCases.TC9_FilterFreeShippingProducts@22ff4249]" started-at="2025-07-29T18:52:01 IST" name="filterFreeShippinProducts" finished-at="2025-07-29T18:52:01 IST" duration-ms="25" status="FAIL">
+        <test-method signature="filterFreeShippinProducts()[pri:0, instance:testCases.TC9_FilterFreeShippingProducts@22ff4249]" started-at="2025-07-29T18:57:02 IST" name="filterFreeShippinProducts" finished-at="2025-07-29T18:57:02 IST" duration-ms="24" status="FAIL">
           <exception class="java.lang.ClassCastException">
             <message>
               <![CDATA[class jdk.proxy2.$Proxy12 cannot be cast to class org.openqa.selenium.By (jdk.proxy2.$Proxy12 is in module jdk.proxy2 of loader 'app'; org.openqa.selenium.By is in unnamed module of loader 'app')]]>
@@ -52,7 +52,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- filterFreeShippinProducts -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC9_FilterFreeShippingProducts@22ff4249]" started-at="2025-07-29T18:52:01 IST" name="tearDown" finished-at="2025-07-29T18:52:01 IST" duration-ms="160" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC9_FilterFreeShippingProducts@22ff4249]" started-at="2025-07-29T18:57:02 IST" name="tearDown" finished-at="2025-07-29T18:57:02 IST" duration-ms="163" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

@@ -52,7 +52,7 @@ public class ProductsPage_POM extends BasePOMPage {
 
 	public List<String> getFreeShippingProducts() {
 		  List<String> freeShippingProductNames = new ArrayList<>();
-	        List<WebElement> products = driver.findElements((By) productIndexes);
+	        List<WebElement> products = driver.findElements((By)productIndexes);
 
 	        for (WebElement product : products) {
 	            if (!product.findElements((By) freeShipping).isEmpty()) {
