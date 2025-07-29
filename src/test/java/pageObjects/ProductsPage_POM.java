@@ -1,6 +1,7 @@
 package pageObjects;
 
 import java.time.Duration;
+import java.util.ArrayList;
 import java.util.List;
 
 import org.openqa.selenium.By;
@@ -24,9 +25,12 @@ public class ProductsPage_POM extends BasePOMPage {
 	@FindBy(xpath = "//div//p[@class='sc-124al1g-4 eeXMBo']")
 	List<WebElement> productNames;
 
-	@FindBy(xpath = "//div//div//div[@class=\"sc-124al1g-3 bHJSNa\"]")
-	WebElement freeShipping;
-
+	@FindBy(xpath = "//div//div//div[@class='sc-124al1g-3 bHJSNa']")
+	List<WebElement> freeShipping;
+	
+	@FindBy(xpath = "//div[@class=\"sc-uhudcz-0 iZZGui\"]//div[@tabindex='1']")
+	List<WebElement> productIndexes;
+	
 	@FindBy(xpath = "//div[@class=\"sc-124al1g-2 bMffkU\"]//button")
 	WebElement addToCart;
 
@@ -46,9 +50,19 @@ public class ProductsPage_POM extends BasePOMPage {
 		}
 	}
 
-	public void freeShipping() {
-		// Need to implement
-	}
+	public List<String> getFreeShippingProducts() {
+		  List<String> freeShippingProductNames = new ArrayList<>();
+	        List<WebElement> products = driver.findElements((By) productIndexes);
+
+	        for (WebElement product : products) {
+	            if (!product.findElements((By) freeShipping).isEmpty()) {
+	                String name = product.findElement((By) product).getText();
+	                freeShippingProductNames.add(name);
+	            }
+	        }
+
+	        return freeShippingProductNames;
+	    }
 
 	public void clikAddToCart() {
 		addToCart.click();
