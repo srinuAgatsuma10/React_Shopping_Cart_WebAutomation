@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 6 failed tests</span>
+      <span class="top-banner-font-1">1 suite, 3 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -92,7 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">9 methods, 6 failed,   3 passed</span>
+                    <span class="method-stats">9 methods, 3 failed,   6 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -101,16 +101,6 @@
                       <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
                     </span>
                     <div class="method-list-content failed suite-Suite">
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="testCases.TC6_AddToCart_3" class="method navigator-link" hash-for-method="addToCart">addToCart</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="testCases.TC4_AddToCart_1" class="method navigator-link" hash-for-method="addToCart">addToCart</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
                       <span>
                         <img src="failed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="testCases.TC8_CheckOutProduct" class="method navigator-link" hash-for-method="checkOutPrduct">checkOutPrduct</a> <!-- method navigator-link -->
@@ -126,11 +116,6 @@
                         <a href="#" panel-name="suite-Suite" title="testCases.TC1_SizeFilteration_1" class="method navigator-link" hash-for-method="sizeFilteration1">sizeFilteration1</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="testCases.TC2_SizeFilteration_2" class="method navigator-link" hash-for-method="sizeFinteration2">sizeFinteration2</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
                     </div> <!-- method-list-content failed suite-Suite -->
                   </li>
                   <li>
@@ -142,7 +127,7 @@
                     <div class="method-list-content passed suite-Suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="testCases.TC5_AddToCart_2" class="method navigator-link" hash-for-method="addToCart">addToCart</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC4_AddToCart_1" class="method navigator-link" hash-for-method="addToCart">addToCart</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -152,7 +137,22 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC5_AddToCart_2" class="method navigator-link" hash-for-method="addToCart">addToCart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC6_AddToCart_3" class="method navigator-link" hash-for-method="addToCart">addToCart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="testCases.TC3_SizeFilteration_3" class="method navigator-link" hash-for-method="sizeFilteratin3">sizeFilteratin3</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC2_SizeFilteration_2" class="method navigator-link" hash-for-method="sizeFinteration2">sizeFinteration2</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
@@ -170,22 +170,24 @@
           <div class="suite-Suite-class-failed">
             <div class="main-panel-header rounded-window-top">
               <img src="failed.png"/>
-              <span class="class-name">testCases.TC8_CheckOutProduct</span>
+              <span class="class-name">testCases.TC1_SizeFilteration_1</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="checkOutPrduct">
-                  </a> <!-- checkOutPrduct -->
-                  <span class="method-name">checkOutPrduct</span>
-                  <div class="stack-trace">org.openqa.selenium.NoAlertPresentException: no such alert
+                  <a name="sizeFilteration1">
+                  </a> <!-- sizeFilteration1 -->
+                  <span class="method-name">sizeFilteration1</span>
+                  <div class="stack-trace">org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found in the current frame
   (Session info: chrome=138.0.7204.169)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
 Build info: version: &apos;4.27.0&apos;, revision: &apos;d6e718d134&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [42f583143ef449239412883b1cc3268f, getAlertText {}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.169, chrome: {chromedriverVersion: 138.0.7204.168 (3e8d82e86e9..., userDataDir: C:\Users\ASUS\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57269}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57269/devtoo..., se:cdpVersion: 138.0.7204.169, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 42f583143ef449239412883b1cc3268f
+Command: [2cbf1944300887137c100b27b069e683, getElementText {id=f.472972B4700803BC85F7CD51598F2BAB.d.6C807AF2A1F36FAC86725B5B6E5E78F7.e.51}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.169, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\ASUS\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53218}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53218/devtoo..., se:cdpVersion: 138.0.7204.169, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (2cbf1944300887137c100b27b069e683)] -&gt; xpath: //div//p[@class=&apos;sc-124al1g-4 eeXMBo&apos;]]
+Session ID: 2cbf1944300887137c100b27b069e683
 	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
@@ -193,63 +195,12 @@ Session ID: 42f583143ef449239412883b1cc3268f
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:618)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:622)
-	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.alert(RemoteWebDriver.java:1194)
-	at testCases.TC8_CheckOutProduct.checkOutPrduct(TC8_CheckOutProduct.java:27)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.getText(RemoteWebElement.java:191)
+	at pageObjects.ProductsPage_POM.getProductName(ProductsPage_POM.java:48)
+	at testCases.TC1_SizeFilteration_1.sizeFilteration1(TC1_SizeFilteration_1.java:35)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
 ... Removed 28 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-failed -->
-          <div class="suite-Suite-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">testCases.TC6_AddToCart_3</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="addToCart">
-                  </a> <!-- addToCart -->
-                  <span class="method-name">addToCart</span>
-                  <div class="stack-trace">java.lang.StringIndexOutOfBoundsException: Range [2, 0) out of bounds for length 0
-	at java.base/jdk.internal.util.Preconditions$1.apply(Preconditions.java:55)
-	at java.base/jdk.internal.util.Preconditions$1.apply(Preconditions.java:52)
-	at java.base/jdk.internal.util.Preconditions$4.apply(Preconditions.java:213)
-	at java.base/jdk.internal.util.Preconditions$4.apply(Preconditions.java:210)
-	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:98)
-	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckFromToIndex(Preconditions.java:112)
-	at java.base/jdk.internal.util.Preconditions.checkFromToIndex(Preconditions.java:349)
-	at java.base/java.lang.String.checkBoundsBeginEnd(String.java:4861)
-	at java.base/java.lang.String.substring(String.java:2830)
-	at java.base/java.lang.String.substring(String.java:2803)
-	at pageObjects.CartPage_POM.returnCartTotalPirce(CartPage_POM.java:48)
-	at testCases.TC6_AddToCart_3.addToCart(TC6_AddToCart_3.java:23)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-... Removed 25 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-failed -->
-          <div class="suite-Suite-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">testCases.TC4_AddToCart_1</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="addToCart">
-                  </a> <!-- addToCart -->
-                  <span class="method-name">addToCart</span>
-                  <div class="stack-trace">java.lang.AssertionError: expected [Blue T-Shirt] but found []
-	at testCases.TC4_AddToCart_1.addToCart(TC4_AddToCart_1.java:26)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-... Removed 31 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
@@ -266,9 +217,9 @@ Session ID: 42f583143ef449239412883b1cc3268f
                   <a name="filterFreeShippinProducts">
                   </a> <!-- filterFreeShippinProducts -->
                   <span class="method-name">filterFreeShippinProducts</span>
-                  <div class="stack-trace">java.lang.ClassCastException: class jdk.proxy2.$Proxy16 cannot be cast to class org.openqa.selenium.By (jdk.proxy2.$Proxy16 is in module jdk.proxy2 of loader &apos;app&apos;; org.openqa.selenium.By is in unnamed module of loader &apos;app&apos;)
+                  <div class="stack-trace">java.lang.ClassCastException: class jdk.proxy2.$Proxy23 cannot be cast to class org.openqa.selenium.By (jdk.proxy2.$Proxy23 is in module jdk.proxy2 of loader &apos;app&apos;; org.openqa.selenium.By is in unnamed module of loader &apos;app&apos;)
 	at pageObjects.ProductsPage_POM.getFreeShippingProducts(ProductsPage_POM.java:55)
-	at testCases.TC9_FilterFreeShippingProducts.filterFreeShippinProducts(TC9_FilterFreeShippingProducts.java:22)
+	at testCases.TC9_FilterFreeShippingProducts.filterFreeShippinProducts(TC9_FilterFreeShippingProducts.java:35)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
 ... Removed 25 stack frames
 </div> <!-- stack-trace -->
@@ -279,58 +230,40 @@ Session ID: 42f583143ef449239412883b1cc3268f
           <div class="suite-Suite-class-failed">
             <div class="main-panel-header rounded-window-top">
               <img src="failed.png"/>
-              <span class="class-name">testCases.TC2_SizeFilteration_2</span>
+              <span class="class-name">testCases.TC8_CheckOutProduct</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="sizeFinteration2">
-                  </a> <!-- sizeFinteration2 -->
-                  <span class="method-name">sizeFinteration2</span>
-                  <div class="stack-trace">java.lang.AssertionError: expected [12] but found [2]
-	at testCases.TC2_SizeFilteration_2.sizeFinteration2(TC2_SizeFilteration_2.java:25)
+                  <a name="checkOutPrduct">
+                  </a> <!-- checkOutPrduct -->
+                  <span class="method-name">checkOutPrduct</span>
+                  <div class="stack-trace">org.openqa.selenium.NoAlertPresentException: no such alert
+  (Session info: chrome=138.0.7204.169)
+Build info: version: &apos;4.27.0&apos;, revision: &apos;d6e718d134&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f7579d8e3fafd2b327d038204e56235b, getAlertText {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.169, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\ASUS\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53075}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53075/devtoo..., se:cdpVersion: 138.0.7204.169, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f7579d8e3fafd2b327d038204e56235b
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:618)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:622)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteAlert.getText(RemoteWebDriver.java:1215)
+	at testCases.TC8_CheckOutProduct.checkOutPrduct(TC8_CheckOutProduct.java:42)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-... Removed 32 stack frames
+... Removed 28 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Suite-class-failed -->
-          <div class="suite-Suite-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">testCases.TC1_SizeFilteration_1</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="sizeFilteration1">
-                  </a> <!-- sizeFilteration1 -->
-                  <span class="method-name">sizeFilteration1</span>
-                  <div class="stack-trace">java.lang.AssertionError: expected [10] but found [16]
-	at testCases.TC1_SizeFilteration_1.sizeFilteration1(TC1_SizeFilteration_1.java:23)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-... Removed 32 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-failed -->
-          <div class="suite-Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">testCases.TC3_SizeFilteration_3</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="sizeFilteratin3">
-                  </a> <!-- sizeFilteratin3 -->
-                  <span class="method-name">sizeFilteratin3</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -349,7 +282,67 @@ Session ID: 42f583143ef449239412883b1cc3268f
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
+              <span class="class-name">testCases.TC2_SizeFilteration_2</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="sizeFinteration2">
+                  </a> <!-- sizeFinteration2 -->
+                  <span class="method-name">sizeFinteration2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.TC6_AddToCart_3</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addToCart">
+                  </a> <!-- addToCart -->
+                  <span class="method-name">addToCart</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.TC3_SizeFilteration_3</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="sizeFilteratin3">
+                  </a> <!-- sizeFilteratin3 -->
+                  <span class="method-name">sizeFilteratin3</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
               <span class="class-name">testCases.TC5_AddToCart_2</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addToCart">
+                  </a> <!-- addToCart -->
+                  <span class="method-name">addToCart</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.TC4_AddToCart_1</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
@@ -423,46 +416,46 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(9);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'sizeFilteratin3')
-data.setCell(0, 2, 'testCases.TC3_SizeFilteration_3')
-data.setCell(0, 3, 3496);
+data.setCell(0, 1, 'addToCart')
+data.setCell(0, 2, 'testCases.TC7_AddToCart_4')
+data.setCell(0, 3, 6421);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'addToCart')
-data.setCell(1, 2, 'testCases.TC7_AddToCart_4')
-data.setCell(1, 3, 3408);
+data.setCell(1, 2, 'testCases.TC5_AddToCart_2')
+data.setCell(1, 3, 4847);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'addToCart')
-data.setCell(2, 2, 'testCases.TC5_AddToCart_2')
-data.setCell(2, 3, 3262);
+data.setCell(2, 1, 'sizeFilteratin3')
+data.setCell(2, 2, 'testCases.TC3_SizeFilteration_3')
+data.setCell(2, 3, 4220);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'sizeFinteration2')
 data.setCell(3, 2, 'testCases.TC2_SizeFilteration_2')
-data.setCell(3, 3, 3185);
+data.setCell(3, 3, 3689);
 data.setCell(4, 0, 4)
 data.setCell(4, 1, 'checkOutPrduct')
 data.setCell(4, 2, 'testCases.TC8_CheckOutProduct')
-data.setCell(4, 3, 2134);
+data.setCell(4, 3, 3277);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'sizeFilteration1')
-data.setCell(5, 2, 'testCases.TC1_SizeFilteration_1')
-data.setCell(5, 3, 1223);
+data.setCell(5, 1, 'addToCart')
+data.setCell(5, 2, 'testCases.TC4_AddToCart_1')
+data.setCell(5, 3, 1831);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'addToCart')
-data.setCell(6, 2, 'testCases.TC4_AddToCart_1')
-data.setCell(6, 3, 101);
+data.setCell(6, 1, 'sizeFilteration1')
+data.setCell(6, 2, 'testCases.TC1_SizeFilteration_1')
+data.setCell(6, 3, 1380);
 data.setCell(7, 0, 7)
 data.setCell(7, 1, 'addToCart')
 data.setCell(7, 2, 'testCases.TC6_AddToCart_3')
-data.setCell(7, 3, 86);
+data.setCell(7, 3, 1364);
 data.setCell(8, 0, 8)
 data.setCell(8, 1, 'filterFreeShippinProducts')
 data.setCell(8, 2, 'testCases.TC9_FilterFreeShippingProducts')
-data.setCell(8, 3, 3);
+data.setCell(8, 3, 12);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 16 seconds</span>
+              <span class="suite-total-time">Total running time: 27 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -495,143 +488,137 @@ return data;
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">sizeFilteratin3</span>
-                <span class="method-start">19571 ms</span>
+                <span class="method-start">117075 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">23123 ms</span>
+                <span class="method-start">121425 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testCases.TC4_AddToCart_1</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">23279 ms</span>
+                <span class="method-start">121897 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">addToCart</span>
-                <span class="method-start">34080 ms</span>
+                <span class="method-start">124853 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">34188 ms</span>
+                <span class="method-start">126694 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testCases.TC8_CheckOutProduct</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">34360 ms</span>
+                <span class="method-start">128825 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">checkOutPrduct</span>
-                <span class="method-start">41592 ms</span>
+                <span class="method-start">131811 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">43730 ms</span>
+                <span class="method-start">135101 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testCases.TC7_AddToCart_4</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">43893 ms</span>
+                <span class="method-start">135569 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">addToCart</span>
-                <span class="method-start">50266 ms</span>
+                <span class="method-start">138455 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">53676 ms</span>
+                <span class="method-start">144892 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testCases.TC6_AddToCart_3</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">53845 ms</span>
+                <span class="method-start">145353 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">addToCart</span>
-                <span class="method-start">62269 ms</span>
+                <span class="method-start">149265 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">62358 ms</span>
+                <span class="method-start">150636 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testCases.TC5_AddToCart_2</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">62500 ms</span>
+                <span class="method-start">151068 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">addToCart</span>
-                <span class="method-start">69656 ms</span>
+                <span class="method-start">154766 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">72920 ms</span>
+                <span class="method-start">159620 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testCases.TC2_SizeFilteration_2</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">73098 ms</span>
+                <span class="method-start">160155 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">sizeFinteration2</span>
-                <span class="method-start">80119 ms</span>
+                <span class="method-start">162986 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">83307 ms</span>
+                <span class="method-start">166680 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testCases.TC9_FilterFreeShippingProducts</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">83483 ms</span>
+                <span class="method-start">167094 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">filterFreeShippinProducts</span>
-                <span class="method-start">87624 ms</span>
+                <span class="method-start">170076 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">87629 ms</span>
+                <span class="method-start">170097 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testCases.TC1_SizeFilteration_1</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">87780 ms</span>
+                <span class="method-start">170470 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">sizeFilteration1</span>
-                <span class="method-start">99393 ms</span>
+                <span class="method-start">173357 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">100619 ms</span>
+                <span class="method-start">174743 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
