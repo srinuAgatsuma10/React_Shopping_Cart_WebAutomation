@@ -14,6 +14,7 @@ import pageObjects.ProductsPage_POM;
 import pageObjects.SizeFilteration_POM;
 import testBase.BaseClass;
 
+
 public class TC1_SizeFilteration_1 extends BaseClass {
 	/* Test Case 1 :
 	 * Validate size filtering by selecting one size.
